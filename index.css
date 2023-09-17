@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    margin:0 auto;
+    display:clock;
+    max-width: 550px;
+
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    color:darkslateblue
+}
+footer a{
+    text-decoration: none;
+    color:darkmagenta;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+  
+}
