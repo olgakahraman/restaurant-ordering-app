@@ -1,7 +1,7 @@
 import { menuArray } from "./data.js";
 
-
-const menuHtml = menuArray.map((item) => {
+const menuHtml = menuArray
+  .map((item) => {
     const { name, ingredients, id, price, emoji } = item;
 
     return `
@@ -17,6 +17,7 @@ const menuHtml = menuArray.map((item) => {
     </section>
 <hr />
     `;
-  }).join(' ');
+  })
+  .join(" ");
 
-document.getElementById('main').innerHTML = menuHtml;
+document.getElementById("main").innerHTML = menuHtml;
